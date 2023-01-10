@@ -2,8 +2,19 @@
 <h1 id="title"> Hello World</h1>
 <p id="description"> Welcome to the page </p>
 <form id="survey-form">
-    <input type="text" id="name" placeholder="Enter your name"/></br></br>
-    <input type="email" id="email" required placeholder="Enter your email" />
 
-<input id="number" type="number" min="0" max="20" placeholder="Enter your number"/></br></br>
+  <label id="name-label" for="name">Name :</label></br>
+  <input type="text" id="name" required   placeholder="Enter your name"/></br></br>
+
+
+  <label id="email-label" for="email">Email :</label></br>
+  <input type="email" id="email" required placeholder="Enter your email" /></br></br>
+
+  <label id="number-label" for="number">Number :</label></br>
+  <input id="number" type="number" min="0" max="20" placeholder="Enter your number"/></br></br>
+
+<select id="dropdown">
+  <option value="one" >one</option>
+  <option value="two">two</option>
+</select>
 </form>
